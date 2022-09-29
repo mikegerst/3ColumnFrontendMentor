@@ -24,8 +24,6 @@
       margin: 0;
       padding: 0;
       color: hsla(0, 0%, 100%, 0.75);
-      
-      
     }
     img{
       height: 3em;
@@ -37,7 +35,7 @@
     }
     p{
       font-family: 'Outfit', sans-serif;
-      font-size: 20px;
+      font-size: 1.6em;
       line-height: 2em;
     }
     button{
@@ -46,6 +44,7 @@
       height: 4em;
       border-radius: 30px;
       color: hsl(31, 77%, 52%);
+      font-size: 1em
     }
    
     .cyan{
@@ -56,12 +55,9 @@
     }
     .container{
       max-width: 1440px;
-      height: 50em;
       display:flex;
       justify-content:center;
-      align-items:stretch;
-      
-      
+      border-radius: 30px;
     }
     .tab{
       display: flex;
@@ -85,9 +81,9 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <div class="tab one">
-      <img src="/images/icon-sedans.svg" alt="sedan" />
+      <img src="/images/icon-sedans.svg" alt="sedan"/>
       <h1>SEDANS</h1>
       <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
       or on your next road trip.</p>
@@ -95,7 +91,7 @@
       <button>Learn More</button>
   </div>
   <div class="tab two">
-    <img src="/images/icon-suvs.svg" alt="SUV" />
+    <img src="/images/icon-suvs.svg" alt="SUV"/>
    <h1> SUVs</h1>
     <p>Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
     and off-road adventures.
@@ -104,7 +100,7 @@
     <button class="cyan">Learn More</button>
   </div>
   <div class="tab three">
-    <img src="/images/icon-luxury.svg" alt="SUV" />
+    <img src="/images/icon-luxury.svg" alt="SUV"/>
 
     <h1>LUXURY</h1>
     <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
@@ -112,10 +108,11 @@
     <div class="spacing"></div>
     <button class="darkcyan">Learn More</button>
   </div>
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Michael Gerst</a>.
-  </div>
+</main>
+  
 </body>
+<footer class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Michael Gerst</a>.
+</footer>
 </html>
